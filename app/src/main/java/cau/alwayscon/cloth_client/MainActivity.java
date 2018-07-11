@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onButton1Clicked(View v) {
-        Intent intent = new Intent(getApplicationContext(), MainscreenActivity.class);
+    public void LOGIN(View v){
+        Intent intent = new Intent(getApplicationContext(),UploadImageActivity.class);
         startActivity(intent);
     }
 }

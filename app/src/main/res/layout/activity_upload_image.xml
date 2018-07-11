@@ -7,7 +7,7 @@
 
 
     <ImageButton
-        android:id="@+id/bUploadImage"
+        android:id="@+id/button"
         android:layout_width="237dp"
         android:layout_height="220dp"
         android:onClick="onClick"

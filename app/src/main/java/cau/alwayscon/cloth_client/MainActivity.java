@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void go(View v){
-        Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+    public void LOGIN(View v){
+        Intent intent = new Intent(getApplicationContext(),UploadImageActivity.class);
         startActivity(intent);
     }
 }

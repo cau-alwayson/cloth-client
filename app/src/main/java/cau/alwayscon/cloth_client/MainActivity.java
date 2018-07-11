@@ -17,4 +17,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),UploadImageActivity.class);
         startActivity(intent);
     }
+
+    public void onButton5Clicked(View v){
+        Intent intent = new Intent(getApplicationContext(),MainscreenActivity.class);
+        startActivity(intent);
+    }
+
+    public void onButton6Clicked(View v){
+        Intent intent = new Intent(getApplicationContext(),SignupActivity.class);
+        startActivity(intent);
+    }
 }

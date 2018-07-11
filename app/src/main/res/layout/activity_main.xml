@@ -17,4 +17,25 @@
         android:text="gotoUploadImage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="196dp"
+        android:layout_height="103dp"
+        android:onClick="onButton5Clicked"
+        android:text="Mainscreen보기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="163dp"
+        android:layout_height="84dp"
+        android:onClick="onButton6Clicked"
+        android:text="회원가입"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="364dp" />
 </android.support.constraint.ConstraintLayout>

@@ -10,10 +10,10 @@
         android:id="@+id/bUploadImage"
         android:layout_width="237dp"
         android:layout_height="220dp"
+        android:onClick="onClick"
         android:scaleType="fitXY"
         android:text="Upload"
-        app:srcCompat="@drawable/uploadImage"
-        android:onClick="onClick"/>
+        app:srcCompat="@drawable/uploadimage" />
 
     <ImageView
         android:id="@+id/uploadedImage"

@@ -137,7 +137,6 @@
         android:scaleX="1.5"
         android:scaleY="1.5" />
 
-<<<<<<< Updated upstream
     <Button
         android:id="@+id/button"
         android:layout_width="127dp"
@@ -147,7 +146,7 @@
         android:onClick="onBackButton2Clicked"
         android:scaleType="fitCenter"
         android:text="돌아가기" />
-=======
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"

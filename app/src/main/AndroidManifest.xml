@@ -26,7 +26,9 @@
         <activity android:name=".UploadImageActivity" />
         <activity
             android:name=".BottomNavActivity"
-            android:label="@string/title_activity_bottom_nav"></activity>
+            android:label="@string/title_activity_bottom_nav" />
+        <activity android:name=".MypageActivity" />
+        <activity android:name=".BestCodi"></activity>
     </application>
 
 </manifest>

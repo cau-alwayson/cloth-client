@@ -15,4 +15,11 @@
         android:layout_weight="0"
         android:text="Load Picture"
         android:layout_gravity="center"></Button>
+    <Button
+        android:id="@+id/buttonLoadPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Load Picture"
+        android:layout_gravity="center"></Button>
 </LinearLayout>

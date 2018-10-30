@@ -40,4 +40,42 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/bottom_navigation_main" />
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="368dp"
+        android:layout_height="439dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
+        android:id="@+id/friend_frame">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/best_coordi_frame"
+        android:layout_width="368dp"
+        android:layout_height="439dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/mypage_frame"
+        android:layout_width="368dp"
+        android:layout_height="439dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
